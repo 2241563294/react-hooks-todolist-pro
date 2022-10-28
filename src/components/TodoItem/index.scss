@@ -1,0 +1,14 @@
+.todo_item {
+  display: flex;
+  padding: 0.3rem 0.2rem;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+
+  .content {
+    margin-left: 0.2rem;
+    width: 2.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

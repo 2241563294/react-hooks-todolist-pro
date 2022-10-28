@@ -1,0 +1,29 @@
+.model {
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .model_inner {
+    width: 4.5rem;
+    background-color: #ffffff;
+
+    .model_title {
+      background-color: #2e77bf;
+      font-size: .32rem;
+      text-align: center;
+      padding: 0.1rem;
+      color: #fff;
+    }
+
+    .model_content {
+      padding: .2rem .3rem;
+      color: #000;
+    }
+  }
+}
